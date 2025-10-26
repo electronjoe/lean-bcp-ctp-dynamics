@@ -1,0 +1,17 @@
+name = "lean_bcp_dynamic_vs_ctp"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["LeanBcpDynamicVsCtp"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
+[[lean_lib]]
+name = "LeanBcpDynamicVsCtp"
