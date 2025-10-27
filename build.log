@@ -1,0 +1,75 @@
+⚠ [7414/7418] Replayed LeanBcpDynamicVsCtp.ExpectationSupermartingale
+warning: LeanBcpDynamicVsCtp/ExpectationSupermartingale.lean:18:5: unused variable `hY`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: LeanBcpDynamicVsCtp/ExpectationSupermartingale.lean:19:5: unused variable `hP`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: LeanBcpDynamicVsCtp/ExpectationSupermartingale.lean:32:47: This simp argument is unused:
+  add_left_comm
+
+Hint: Omit it from the simp argument list.
+  simp [hα, Finset.sum_range_succ, add_comm, a̵d̵d̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵,̵ ̵add_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✖ [7415/7418] Building LeanBcpDynamicVsCtp.IonescuTulcea (5.1s)
+trace: .> LEAN_PATH=/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/packages/Cli/.lake/build/lib/lean:/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/packages/batteries/.lake/build/lib/lean:/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/packages/Qq/.lake/build/lib/lean:/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/packages/aesop/.lake/build/lib/lean:/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/packages/importGraph/.lake/build/lib/lean:/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/packages/plausible/.lake/build/lib/lean:/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/packages/mathlib/.lake/build/lib/lean:/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/build/lib/lean /home/electronjoe/.elan/toolchains/leanprover--lean4---v4.25.0-rc2/bin/lean /home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/LeanBcpDynamicVsCtp/IonescuTulcea.lean -o /home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/build/lib/lean/LeanBcpDynamicVsCtp/IonescuTulcea.olean -i /home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/build/lib/lean/LeanBcpDynamicVsCtp/IonescuTulcea.ilean -c /home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/build/ir/LeanBcpDynamicVsCtp/IonescuTulcea.c --setup /home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/build/ir/LeanBcpDynamicVsCtp/IonescuTulcea.setup.json --json
+warning: LeanBcpDynamicVsCtp/IonescuTulcea.lean:18:9: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+error: LeanBcpDynamicVsCtp/IonescuTulcea.lean:40:30: cannot coerce to sort
+  fun x ↦ Finset.Iic x
+error: LeanBcpDynamicVsCtp/IonescuTulcea.lean:41:2: Application type mismatch: The argument
+  ProbabilityTheory.Kernel.traj ?m.39 0
+has type
+  ProbabilityTheory.Kernel ((i : ↥(Finset.Iic 0)) → ?m.36 ↑i) ((n : ℕ) → ?m.36 n)
+but is expected to have type
+  (↥(Finset.Iic 0) → α) → Measure (ℕ → α)
+in the application
+  ProbabilityTheory.Kernel.traj ?m.39 0 ∘ₘ Measure.pi fun x ↦ μ0
+error: Lean exited with code 1
+✖ [7416/7418] Building LeanBcpDynamicVsCtp.Drift (5.8s)
+trace: .> LEAN_PATH=/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/packages/Cli/.lake/build/lib/lean:/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/packages/batteries/.lake/build/lib/lean:/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/packages/Qq/.lake/build/lib/lean:/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/packages/aesop/.lake/build/lib/lean:/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/packages/importGraph/.lake/build/lib/lean:/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/packages/plausible/.lake/build/lib/lean:/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/packages/mathlib/.lake/build/lib/lean:/home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/build/lib/lean /home/electronjoe/.elan/toolchains/leanprover--lean4---v4.25.0-rc2/bin/lean /home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/LeanBcpDynamicVsCtp/Drift.lean -o /home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/build/lib/lean/LeanBcpDynamicVsCtp/Drift.olean -i /home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/build/lib/lean/LeanBcpDynamicVsCtp/Drift.ilean -c /home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/build/ir/LeanBcpDynamicVsCtp/Drift.c --setup /home/electronjoe/Documents/lean_bcp_dynamic_vs_ctp/.lake/build/ir/LeanBcpDynamicVsCtp/Drift.setup.json --json
+warning: LeanBcpDynamicVsCtp/Drift.lean:30:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+error: LeanBcpDynamicVsCtp/Drift.lean:38:4: Type mismatch: After simplification, term
+  hsum_le
+ has type
+  ∑ x ∈ range T, (-L x + L (x + 1)) ≤ ∑ x ∈ range T, (B + (p x + -(η * y x)))
+but is expected to have type
+  L T ≤ ∑ t ∈ range T, p t + (↑T * B + (-(η * ∑ t ∈ range T, y t) + L 0))
+error: LeanBcpDynamicVsCtp/Drift.lean:81:34: Type mismatch
+  inv_nonneg.mpr (le_of_lt hTposR)
+has type
+  0 ≤ (↑T)⁻¹
+but is expected to have type
+  0 ≤ 1 / ↑T
+warning: LeanBcpDynamicVsCtp/Drift.lean:82:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+error: LeanBcpDynamicVsCtp/Drift.lean:96:2: Type mismatch: After simplification, term
+  hmul
+ has type
+  (↑T)⁻¹ * ∑ t ∈ range T, y t ≤ (↑T)⁻¹ * (η⁻¹ * ∑ t ∈ range T, p t) + ((↑T)⁻¹ * (↑T * B / η) + (↑T)⁻¹ * (L 0 / η))
+but is expected to have type
+  (↑T)⁻¹ * ∑ t ∈ range T, y t ≤ B / η + ((↑T)⁻¹ * η⁻¹ * ∑ t ∈ range T, p t + L 0 / (η * ↑T))
+warning: LeanBcpDynamicVsCtp/Drift.lean:86:37: This simp argument is unused:
+  mul_left_comm
+
+Hint: Omit it from the simp argument list.
+  simp [one_div, hTne, mul_comm, mul_l̵e̵f̵t̵_̵c̵o̵m̵m̵,̵ ̵m̵u̵l̵_̵assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LeanBcpDynamicVsCtp/Drift.lean:86:52: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [one_div, hTne, mul_comm, mul_left_comm,̵ ̵m̵u̵l̵_̵a̵s̵s̵o̵c̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: Lean exited with code 1
+Some required targets logged failures:
+- LeanBcpDynamicVsCtp.IonescuTulcea
+- LeanBcpDynamicVsCtp.Drift
+error: build failed
